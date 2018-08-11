@@ -5,8 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>hummnbird-Frontend</Text>
-        
+        <Text style={{ fontSize: 35, color:'#fff'}}>hummnbird</Text>
       </View>
     );
   }
@@ -15,8 +14,9 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
   },
 });
+//0a4a5f
